@@ -1,9 +1,10 @@
 import React from 'react';
+import PostStatus from '../PostStatus/PostStatus';
 
 const Home = () => {
     return (
-        <div>
-            homeeeeeeeee
+        <div className='lg:w-10/12 mx-auto'>
+            <PostStatus />
         </div>
     );
 };
